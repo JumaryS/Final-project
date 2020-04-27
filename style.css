@@ -11,15 +11,17 @@ body {
     }
 .container{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* flex-direction: column; */
   flex-wrap: wrap;
-  
   
 }
 .column{
-  
+
+  padding: 1em;
+
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
